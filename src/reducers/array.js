@@ -16,7 +16,7 @@ const initialState = {
   ]
 };
 
-export default (state = initialState, action) => {
+export default  (state = initialState, action) => {
   switch (action.type) {
     case "COUNT-YEAR": {
       if (state.years.length === 0) {
@@ -33,7 +33,6 @@ export default (state = initialState, action) => {
     case "DELETE-YEAR": {
       return { ...state, years: [] };
     }
-
     default:
       return state;
   }

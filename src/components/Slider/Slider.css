@@ -165,16 +165,6 @@ input[type="range"]::-ms-thumb {
   color: #999999;
 }
 
-@media (max-width: 1120px) {
-  .years {
-    display: none;
-  }
-}
-@media (max-width: 300px) {
-  .year-container {
-    display: none;
-  }
-}
 @media (max-width: 300px) {
   .year-container {
     display: none;

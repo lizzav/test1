@@ -17,7 +17,8 @@ function App(props) {
 
   return (
     <div className="App">
-      <Slider start={dateStart.getTime()} end={dateEnd.getTime()} />
+      { dateStart&&dateEnd&& <Slider start={dateStart.getTime()} end={dateEnd.getTime()} />}
+
     </div>
   );
 }
